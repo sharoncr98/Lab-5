@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+/*Headers */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+    height: 140px;
+    background-color: #125784;
+}
+header > div {
+    height: 125px;
+    width: auto;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > div.logo-container > a > img{
+    height: 120px;
+}
+header > div > a > img{
+    display: flex;
+    width: auto;
+    height: 100%;
+
+}
+header > div > nav > menu {
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+}
+header > div > nav > menu > li{
+    padding: 0 10px;
+}
+header > div > nav > menu > li > a{
+    color: #fefefe;
+}
+header > div > input{
+
+}
+.hero{
+    background-image: url("../IMG/img1.jpg");
+    text-align: center;
+    color: #fefefe;
+    margin-bottom: 50px;
+    height: 400px;
+}
+.hero > div{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+}
+.hero > div > h1{
+    padding-top: 190px;
+}
+main > section > div{
+
+}
